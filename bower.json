@@ -1,0 +1,22 @@
+{
+  "name": "lab9",
+  "homepage": "https://github.com/hx462/lab9",
+  "authors": [
+    "Hao Xie <hx462@nyu.edu>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^2.2.3",
+    "d3": "^3.5.16"
+  }
+}
