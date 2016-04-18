@@ -83,7 +83,7 @@ d3.csv("car.csv", function(error, data) {
           tooltip.transition()
                .duration(200)
                .style("opacity", .9);
-          tooltip.html(d.name + "<br/> (" + d.mpg + ")")
+          tooltip.html(d.name)
                .style("left", (d3.event.pageX + 5) + "px")
                .style("top", (d3.event.pageY - 28) + "px");
       })
